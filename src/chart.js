@@ -25,7 +25,7 @@ export const chart = async (country) => {
       setMonthLabel(3) === 'Január' ? `${year} ${setMonthLabel(3)}` : setMonthLabel(3),
       setMonthLabel(2) === 'Január' ? `${year} ${setMonthLabel(2)}` : setMonthLabel(2),
       setMonthLabel(1) === 'Január' ? `${year} ${setMonthLabel(1)}` : setMonthLabel(1),
-      setMonthLabel(0) === 'Január' ? `${year} ${setMonthLabel(0)}` : setMonthLabel(0),
+      // setMonthLabel(0) === 'Január' ? `${year} ${setMonthLabel(0)}` : setMonthLabel(0),
     ];
     
     const data = {
