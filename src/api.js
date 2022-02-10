@@ -50,4 +50,3 @@ export const getHistoryData = async (country) => {
   return arr
 }
 
-
